@@ -1,0 +1,23 @@
+{
+    "name": "baoxulong/swoole",
+    "description": "a swoole http server",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Dale Bao",
+            "email": "347835368@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        },
+        "files" : ["helper.php"]
+    },
+    "require": {
+        "illuminate/database": "^5.6"
+    },
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master"
+    }
+}
