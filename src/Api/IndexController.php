@@ -20,6 +20,6 @@ class IndexController extends BaseController
 
     public function index(RequestHandler $res)
     {
-       return self::$database->table('hello')->select()->get();
+       return db()->table('hello')->select()->get();
     }
 }
