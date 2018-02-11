@@ -11,6 +11,10 @@ namespace src\Api;
 use src\App\RequestHandler;
 use src\Controllers\BaseController;
 
+/**
+ * Class IndexController
+ * @package src\Api
+ */
 class IndexController extends BaseController
 {
 
