@@ -6,7 +6,7 @@
  * Time: 16:35
  */
 
-namespace src\App;
+namespace Application\App;
 
 use Exception;
 class InvokerHandler

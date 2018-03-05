@@ -10,12 +10,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "src\\": "src/"
+            "Application\\": "Application/"
         },
         "files" : ["helper.php"]
     },
     "require": {
-        "illuminate/database": "^5.6"
+        "illuminate/database": "^5.6",
+        "pimple/pimple": "^3.2"
     },
     "require-dev": {
         "eaglewu/swoole-ide-helper": "dev-master"

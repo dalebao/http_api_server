@@ -30,3 +30,18 @@ if(!function_exists('db')){
     }
 }
 
+if (!function_exists('app')){
+    function app($class_name){
+        $container = new \Pimple\Container();
+        if (class_exists($class_name)){
+            $container[$class_name] = function ($c) use ($class_name) {
+                return new $class_name;
+            };
+            return $container[$class_name];
+            
+        }else{
+            throw new Exception($class_name.' 不存在',500);
+        }
+    }
+}
+

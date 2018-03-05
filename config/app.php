@@ -14,7 +14,6 @@ return [
 
     'default' => 'database',
 
-
     'database' => [
         'driver'    => 'mysql',
         'host'      => 'localhost',

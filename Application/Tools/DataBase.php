@@ -6,7 +6,7 @@
  * Time: 20:26
  */
 
-namespace src\Tools;
+namespace Application\Tools;
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 

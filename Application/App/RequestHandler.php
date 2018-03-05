@@ -6,7 +6,7 @@
  * Time: 15:10
  */
 
-namespace src\App;
+namespace Application\App;
 
 use Swoole\Http\Response;
 
